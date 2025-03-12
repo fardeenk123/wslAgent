@@ -4,7 +4,7 @@
           stage("Clone Code"){
               steps{
                   echo "Cloning the code"
-                  git url: "<https://github.com/iam-harshsoni/node-todo-cicd>", branch: "master"
+                  git url: "https://github.com/iam-harshsoni/node-todo-cicd", branch: "master"
               }
           }
           stage("Build"){
