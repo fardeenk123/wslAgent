@@ -1,5 +1,5 @@
   pipeline{
-      agent { label 'dev-agent'}
+      agent { label 'wsl'}
       stages {
           stage("Clone Code"){
               steps{
